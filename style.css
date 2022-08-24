@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+.sol-menu{
+    background-color: rgb(205, 190, 50);
+    width: 20vw;
+    height: 100vh;
+    /* margin: 10rem 10rem; */
+    position: absolute;
+    top: 0;
+    left: -17vw;
+    transition: left 1s;
+}
+.sol-menu:hover{
+    left: 0;
+}
+
+.title{
+    position: relative;
+    background-color: rgb(97, 165, 42);
+    font-weight: 700;
+    
+    padding: 1rem 2rem;
+    color: white;
+}
+i{
+    position: absolute;
+    right: 0.5rem;
+    
+    color: black;
+    font-weight: 800;
+    transition: transform 2s;
+}
+
+.sol-menu:hover i{
+    transform: rotate(180deg);
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0.5rem
+    
+}
+li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 0.7rem;
+}
+
+
+
+
+
+
+
+
+
+
